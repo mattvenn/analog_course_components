@@ -1,0 +1,43 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1715860637
+<< psubdiff >>
+rect 1628 3658 1652 3952
+rect 1992 3658 2016 3952
+<< psubdiffcont >>
+rect 1652 3658 1992 3952
+<< locali >>
+rect 1636 3658 1652 3952
+rect 1992 3658 2008 3952
+<< viali >>
+rect 1722 3680 1932 3922
+<< metal1 >>
+rect -778 5142 224 5430
+rect 3154 5280 4156 5568
+rect 1684 3922 2000 4244
+rect 1684 3680 1722 3922
+rect 1932 3680 2000 3922
+rect 1684 3630 2000 3680
+rect -648 784 354 1072
+rect 3086 776 4088 1064
+use sky130_fd_pr__res_high_po_0p35_QPS5FG  XR1
+timestamp 1715860637
+transform 1 0 148 0 1 3129
+box -201 -2582 201 2582
+use sky130_fd_pr__res_high_po_5p73_WUGB7G  XR2
+timestamp 1715860637
+transform 1 0 4359 0 1 3196
+box -739 -2582 739 2582
+<< labels >>
+flabel metal1 -748 5198 -548 5398 0 FreeSans 256 0 0 0 r1_r0
+port 0 nsew
+flabel metal1 3166 5322 3366 5522 0 FreeSans 256 0 0 0 r2_r0
+port 1 nsew
+flabel metal1 3086 818 3286 1018 0 FreeSans 256 0 0 0 r2_r1
+port 3 nsew
+flabel metal1 -594 802 -394 1002 0 FreeSans 256 0 0 0 r1_r1
+port 2 nsew
+flabel metal1 1720 4024 1920 4224 0 FreeSans 256 0 0 0 subs
+port 4 nsew
+<< end >>
