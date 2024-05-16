@@ -1,0 +1,7 @@
+** sch_path: /home/matt/work/asic-workshop/shuttle-2404/analog_course_components/xschem/caps
+.subckt caps c1_c0 c1_c1 c2_c0 c2_c1
+*.PININFO c1_c0:B c1_c1:B c2_c0:B c2_c1:B
+XC1 c1_c0 c1_c1 sky130_fd_pr__cap_mim_m3_1 W=10 L=10 m=1
+XC2 c2_c0 c2_c1 sky130_fd_pr__cap_mim_m3_1 W=10 L=10 m=2
+.ends
+.end

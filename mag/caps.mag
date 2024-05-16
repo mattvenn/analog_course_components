@@ -1,0 +1,26 @@
+magic
+tech sky130A
+timestamp 1715856855
+<< metal4 >>
+rect -1466 753 -722 901
+rect -132 272 47 1627
+rect 809 760 1700 922
+rect 2297 287 2521 1568
+use sky130_fd_pr__cap_mim_m3_1_4PHTN9  XC1
+timestamp 1715856599
+transform 1 0 -670 0 1 841
+box -593 -520 593 520
+use sky130_fd_pr__cap_mim_m3_1_4DGTN9  XC2
+timestamp 1715856599
+transform 1 0 1779 0 1 240
+box -593 -1160 593 1160
+<< labels >>
+flabel metal4 -114 1459 36 1592 0 FreeSans 800 0 0 0 c1_c1
+port 2 nsew
+flabel metal4 -1452 767 -1301 897 0 FreeSans 800 0 0 0 c1_c0
+port 3 nsew
+flabel metal4 833 771 984 901 0 FreeSans 800 0 0 0 c2_c0
+port 4 nsew
+flabel metal4 2328 1413 2479 1543 0 FreeSans 800 0 0 0 c2_c1
+port 5 nsew
+<< end >>
